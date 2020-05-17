@@ -78,5 +78,6 @@ footer a {
   2. I need a visual aid or something for the following; I don't get it:
   From 1.2.9: "Well, remember that whole "box model" discussion from earlier? Our issue has something to do with that. See, we told our footer CSS rule declaration to have both a width of 100% and padding of 35px on both the left and right sides. Having a width of 100% means it'll be the full width of it's parent (in this case, it's the <body> element), but then we add on a total of 70px to the left and right with padding and it makes our <footer> element wider than the actual screen!"
 
+  
   */
 
