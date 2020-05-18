@@ -67,6 +67,35 @@ footer a {
     color: #024e76;
 }
 
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg\ \(1\).jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    /* alternatively, border styling can be all on one line: solid 3px #024e76; */
+}
+/* Hero Style End
+
+
+
+
+
+
 
   /* Questions for TAs:
   1. In module 1.2.3 (Add Content to the Header), the instruction appears to show
@@ -78,6 +107,11 @@ footer a {
   2. I need a visual aid or something for the following; I don't get it:
   From 1.2.9: "Well, remember that whole "box model" discussion from earlier? Our issue has something to do with that. See, we told our footer CSS rule declaration to have both a width of 100% and padding of 35px on both the left and right sides. Having a width of 100% means it'll be the full width of it's parent (in this case, it's the <body> element), but then we add on a total of 70px to the left and right with padding and it makes our <footer> element wider than the actual screen!"
 
-  
+  3. I noticed that the hero bg image still didn't look right on my extra large monitor. I changed 
+  the height to 800px instead of 600px. Changed it back to 600px. What's the rule of thumb for sizing here? What 
+  constitutes "normal" in terms of screen size? How often are those paradigms updated?
+
+  4. Are there best practices for how style sheet elements are ordered in a given style declaration? 
+  e.g., is there a reason for the order of background image>>height>>bg size>>bg position, etc?
   */
 
