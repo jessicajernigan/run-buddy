@@ -12,3 +12,5 @@ https://jessicajernigan.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Jessica
+
+### ©️2020 Run Buddy, Inc 
