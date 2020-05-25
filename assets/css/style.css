@@ -44,7 +44,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -88,6 +88,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .hero-cta {
@@ -96,7 +97,7 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -160,7 +161,7 @@ section {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -337,20 +338,9 @@ section {
     display: flex;
 }
 
-/* Questions for TAs:
-  1. In module 1.2.3 (Add Content to the Header), the instruction appears to show
-  '<a href="/"></a>' around the <h1> -- I had to remove this in order to make the 
-  'Run Buddy' header change to yellow. Why did it look like the instructions required 
-  the <href> before we added the no 'text-decoration' property (to eliminate the underline?
-  Why didn't that work for me? 
 
-  2. I need a visual aid or something for the following; I don't get it:
-  From 1.2.9: "Well, remember that whole "box model" discussion from earlier? Our issue has something to do with that. See, we told our footer CSS rule declaration to have both a width of 100% and padding of 35px on both the left and right sides. Having a width of 100% means it'll be the full width of it's parent (in this case, it's the <body> element), but then we add on a total of 70px to the left and right with padding and it makes our <footer> element wider than the actual screen!"
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
 
-  3. I noticed that the hero bg image still didn't look right on my extra large monitor. I changed 
-  the height to 800px instead of 600px. Changed it back to 600px. What's the rule of thumb for sizing here? What 
-  constitutes "normal" in terms of screen size? How often are those paradigms updated?
+  }
 
-  4. Are there best practices for how style sheet elements are ordered in a given style declaration? 
-  e.g., is there a reason for the order of background image>>height>>bg size>>bg position, etc?
-  */
