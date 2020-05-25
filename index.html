@@ -112,7 +112,7 @@
     <!-- End "what we do" section-->
 
 
-    <!-- "what you do" section -->
+    <!-- Begin "what you do" section -->
     <section id="what-you-do" class="steps">
         <div class="flex-row">
             <h2 class="section-title secondary">
@@ -171,23 +171,25 @@
                 </div>
             </div>
         </div>
-        <!-- End "what you do" section -->
+    </section>
+    <!-- End "what you do" section -->
 
 
-        <!-- "meet the trainers" section-->
-        <section id="your-trainers" class="trainers">
-            <div class="flex-row">
-                <h2 class="section-title primary-border">
-                    Meet The Trainers
-                </h2>
-            </div>
+    <!-- "meet the trainers" section-->
+    <section id="your-trainers">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">
+                Meet The Trainers
+            </h2>
+        </div>
+        <div class="trainers">
             <!-- first trainer bio -->
             <article class="trainer">
                 <img src="./assets/images/trainer-1.jpg"
                     alt="Arron Stephens in his workout clothes, ready to pump iron" />
-                <div class="trainer-bio text-left">
-                    <h3>Arron Stephens</h3>
-                    <h4>Speed / Strength</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Arron Stephens</h3>
+                    <h4 class="trainer-role">Speed / Strength</h4>
                     <p>
                         Hearts of the stars muse about two ghostly white figures in coveralls and helmets are soflty
                         dancing
@@ -201,9 +203,10 @@
 
             <!-- second trainer bio -->
             <article class="trainer">
-                <div class="trainer-bio text-right">
-                    <h3>Joanna Gill</h3>
-                    <h4>Endurance</h4>
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Joanna Gill</h3>
+                    <h4 class="trainer-role">Endurance</h4>
                     <p>
                         As a patch of light culture descended from astronomers hundreds of thousands stirred by
                         starlight
@@ -212,16 +215,15 @@
                         collapsing stars.
                     </p>
                 </div>
-                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
             </article>
 
             <!-- third trainer bio -->
             <article class="trainer">
                 <img src="./assets/images/trainer-3.jpg"
                     alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-                <div class="trainer-bio text-left">
-                    <h3>Harry "the Headband" Smith</h3>
-                    <h4>Strength</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+                    <h4 class="trainer-role">Strength</h4>
                     <p>
                         Finite but unbounded of brilliant syntheses rich in heavy atoms paroxysm of global death
                         preserve
@@ -231,65 +233,66 @@
                     </p>
                 </div>
             </article>
-        </section>
-        <!-- End "meet the trainers" section-->
+        </div>
+    </section>
+    <!-- End "meet the trainers" section-->
 
 
-        <!-- "reach out" section -->
-        <section id="reach-out" class="contact">
-            <div class="flex-row">
-                <h2 class="section-title secondary-border">
-                    Reach Out
-                </h2>
+    <!-- "reach out" section -->
+    <section id="reach-out" class="contact">
+        <div class="flex-row">
+            <h2 class="section-title secondary-border">
+                Reach Out
+            </h2>
+        </div>
+        <div class="contact-info">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.5130743184186!2d-97.68375768453195!3d30.27945208179731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b614ab81b135%3A0xd2ae0ff6eaef749!2sSahara%20Lounge!5e0!3m2!1sen!2sus!4v1590100918556!5m2!1sen!2sus">
+            </iframe>
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
+
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
             </div>
-            <div class="contact-info">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.5130743184186!2d-97.68375768453195!3d30.27945208179731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b614ab81b135%3A0xd2ae0ff6eaef749!2sSahara%20Lounge!5e0!3m2!1sen!2sus!4v1590100918556!5m2!1sen!2sus">
-                </iframe>
-                <div class="contact-form">
-                    <h3>Contact Us</h3>
-                    <form>
-                        <label for="contact-name">Your Name</label>
-                        <input type="text" id="contact-name" placeholder="Your Name" />
-
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" placeholder="Message"></textarea>
-
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-
-                <div>
-                    <h3>Run Buddy</h3>
-                    <p>
-                        Any questions or concerns before signing up?
-                        <br />
-                        Let us know and we'll be happy to talk to you!
-                    </p>
-
-                    <address>
-                        55 Main Street <br />
-                        Some Town, CA <br />
-                        12345<br />
-                        P: 55.RUN.BUDZ (555.786.2839)<br />
-                        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-                    </address>
-                </div>
-            </div>
-
-        </section>
-        <!-- End "reach out" section -->
-
-
-        <!-- footer -->
-        <footer>
-            <h2>❤️ Made with love by Run Buddy.</h2>
 
             <div>
-                <a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
-                &copy; 2020 Run Buddy, Inc.
+                <h3>Run Buddy</h3>
+                <p>
+                    Any questions or concerns before signing up?
+                    <br />
+                    Let us know and we'll be happy to talk to you!
+                </p>
+
+                <address>
+                    55 Main Street <br />
+                    Some Town, CA <br />
+                    12345<br />
+                    P: 55.RUN.BUDZ (555.786.2839)<br />
+                    E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                </address>
             </div>
-        </footer>
+        </div>
+
+    </section>
+    <!-- End "reach out" section -->
+
+
+    <!-- footer -->
+    <footer>
+        <h2>❤️ Made with love by Run Buddy.</h2>
+
+        <div>
+            <a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
+            &copy; 2020 Run Buddy, Inc.
+        </div>
+    </footer>
 </body>
 
 </html>
